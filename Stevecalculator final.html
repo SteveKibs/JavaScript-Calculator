@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>steve calculator</title>
+
+
+<form name="form1">
+<script language="javascript">
+
+function clears()
+	{
+form1.result.value="";
+	}
+
+function clears()
+	{
+ form1.result.value="";
+
+	}
+
+function add()
+	{
+form1.result.value=eval(form1.result.value + "+");
+
+	}
+
+function equals()
+	{
+form1.result.value=eval(form1.result.value);
+	}
+
+
+function display()
+	{
+form1.result.value=form1.result.value + '+';
+	}
+
+function screensaver()
+	{
+
+window.alert("Jambo, Welcome to Steve's Calc Lab");
+
+
+//form1.result.value=<blink>Hello User</blink>;
+
+	//form1.result.value=window.setTimeout(document.write="hello",3000);	
+	}
+function alerts()
+	{
+
+document.write="hello";
+	}
+
+
+
+
+
+
+
+</script>
+</head>
+
+
+
+<body onLoad="screensaver()">
+<table border="4" bgcolor="black">
+<tr>
+<td><input type="text" name="result">
+</td>
+</tr>
+<tr>
+
+<td>
+
+<input type="button" name="clear" value="Clears" onClick="clears()">
+
+<input type="button" name="steve" value="Stev Calc" onClick="screensaver()"> 
+</td>
+</tr>
+</table>
+
+<table border="4" bgcolor="red/1">
+
+<tr>
+<td bgcolor="gold/1"><input type="button" name="nine" value="9" onClick="form1.result.value=form1.result.value +'9'">
+</td>
+<td bgcolor="gold/1"><input type="button" name="eight" value="8" onClick="form1.result.value=form1.result.value + '8'">
+</td>
+<td bgcolor="gold/1"><input type="button" name="seven" value="7" onClick="form1.result.value=form1.result.value + '7'">
+</td>
+<td bgcolor="gold/1"><input type="button" name="six" value="6" onClick="form1.result.value=form1.result.value + '6'">
+</td>
+</tr>
+<tr>
+<td bgcolor="blue"><input type="button" name="five" value="5" onClick="form1.result.value=form1.result.value + '5'">
+</td>
+
+
+<td bgcolor="blue"><input type="button" name="four" value="4" onClick="form1.result.value=form1.result.value + '4'">
+</td>
+<td bgcolor="blue"><input type="button" name="three" value="3" onClick="form1.result.value=form1.result.value + '3'">
+</td>
+<td bgcolor="blue"><input type="button" name="two" value="2" onClick="form1.result.value=form1.result.value + '2'">
+</td>
+</tr>
+<tr>
+<td bgcolor="red/0.5"><input type="button" name="one" value="1" onClick="form1.result.value=form1.result.value + '1'">
+</td>
+<td bgcolor="red/0.5"><input type="button" name="zero" value="0" onClick="form1.result.value=form1.result.value + '0'">
+</td>
+
+<td bgcolor="red/0.5"><input type="button" name="multiplys" value="*" onClick="form1.result.value=form1.result.value + '*'">
+</td>
+<td bgcolor="red/0.5"><input type="button" name="divide" value="/" onClick="form1.result.value=form1.result.value + '/'">
+</td>
+</tr>
+<tr>
+<td bgcolor="red"><input type="button" name="substract" align="center" value=" - " onClick="form1.result.value=form1.result.value + '-'">
+</td>
+<td bgcolor="red"><input type="button" name="adds" value=" +  " onClick="form1.result.value=form1.result.value + '+'">
+</td>
+<td bgcolor="red"><input type="button" name="equal" value=" = " onClick="equals()">
+</td>
+<td bgcolor="red"><input type="button" name="dot" font size='5' value=" . " onClick="form1.result.value=form1.result.value + '.'">
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+

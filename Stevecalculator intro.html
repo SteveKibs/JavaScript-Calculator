@@ -1,0 +1,26 @@
+<html>
+<head>
+
+
+<form method="submit" name="form1">
+<script language="javascript">
+<!--
+function sums()
+	{
+var a=form1.value1.value + "+";
+var b=form1.value2.value;
+var answers=eval(a+b);
+//document.write("Answer:"+answers)
+form1.answer.value=answers;
+	}
+//-->
+</script>
+</head>
+<body>
+<input type="number" name="value1" placeholder="Enter a value">
+<input type="number" name="value2" placeholder="Enter another value">
+<input type="text" name="answer" placeholder="Total">
+<input type="button" name="button1" value="Calculate Total" onClick="sums()">
+</form>
+</body>
+</html>
